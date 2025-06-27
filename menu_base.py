@@ -1,3 +1,8 @@
+# Función personalizada del integrante 1
+def datos_andres():
+    print("Mi nombre es Andrés Savaria y tengo 26 años.")
+
+# Función personalizada del integrante 2
 def datos_messi():
     print("Mi nombre es Lionel Messi y tengo 38 años.")
 
@@ -14,7 +19,7 @@ while True:
         print("Programa finalizado.") 
         break 
     elif op == "1": 
-        pass  # Aquí se llamará a la función del integrante 1 
+        datos_andres() # LLama a la función del integrante 1 
     elif op == "2": 
         datos_messi()  # Aquí se llamará a la función del integrante 2 
     else: 
